@@ -1,0 +1,40 @@
+{
+  "name": "limonte/mcafee-siteadvisor",
+  "description": "Check if link is spam via McAfee SiteAdvisor",
+  "keywords": [
+    "spam checker",
+    "malware detector",
+    "phishing checker",
+    "scam detector",
+    "spam-checker",
+    "spam-link",
+    "spam-link-checker",
+    "link-checker",
+    "McAfee",
+    "SiteAdvisor"
+  ],
+  "homepage": "https://github.com/limonte/mcafee-siteadvisor",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Limon Monte",
+      "email": "limon.monte@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "~5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Limonte\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Limonte\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
