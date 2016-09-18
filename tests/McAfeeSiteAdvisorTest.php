@@ -26,6 +26,11 @@ class McAfeeSiteAdvisorTest extends \PHPUnit_Framework_TestCase
             SiteAdvisor::SUSPICIOUS,
             $this->checker->check('http://9nl.pw/e25y')
         );
+
+        $this->assertEquals(
+            SiteAdvisor::SUSPICIOUS,
+            $this->checker->check('http://ggovusa.us.pn')
+        );
     }
 
     public function testMightStealYourIdentity()
