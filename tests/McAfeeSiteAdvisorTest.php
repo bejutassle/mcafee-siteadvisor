@@ -40,4 +40,12 @@ class McAfeeSiteAdvisorTest extends \PHPUnit_Framework_TestCase
             $this->checker->check('http://fisioterapiaironica.com.br')
         );
     }
+
+    /**
+     * @expectedException Exception
+     */
+    public function testInvalidUrl()
+    {
+        $this->checker->check('invalid URL');
+    }
 }
