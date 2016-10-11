@@ -23,3 +23,9 @@ if ($status === SiteAdvisor::SUSPICIOUS) {
     // link is suspicious - malware, spam or dangerous
 }
 ```
+
+## Related libraries:
+
+- Google Safebrowsing PHP library: [limonte/google-safebrowsing](https://github.com/limonte/google-safebrowsing)
+- Check if link is SPAM: [limonte/spam-link-analyser](https://github.com/limonte/spam-link-analyser)
+- PHP parser for Adblock Plus filters: [limonte/php-adblock-parser](https://github.com/limonte/php-adblock-parser)
